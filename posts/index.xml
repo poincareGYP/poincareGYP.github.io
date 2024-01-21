@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on poincareGYP</title>
+    <link>https://poincaregyp.github.io/posts/</link>
+    <description>Recent content in Posts on poincareGYP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>poincaregyp@gmail.com (Aditya Kumar Singh)</managingEditor>
+    <webMaster>poincaregyp@gmail.com (Aditya Kumar Singh)</webMaster>
+    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://poincaregyp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample blog</title>
+      <link>https://poincaregyp.github.io/posts/sample/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <author>poincaregyp@gmail.com (Aditya Kumar Singh)</author>
+      <guid>https://poincaregyp.github.io/posts/sample/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If $p(x)$ is a polynomial of degree $n$,
+$$\begin{equation}p(x) = c_{0} + c_{1}x + c_{2}x^{2}+\cdots+c_{n}x^{n}
+\tag{1}\end{equation}$$
+differentiating it successfully $n$ times, we get
+$$
+\begin{alignat}{3}
+p&amp;rsquo;(x) = c_{1}+2 \cdot c_{2}x+\cdots+n \cdot c_{n}x^{(n+1)} \
+p&amp;rsquo;&amp;rsquo;(x) = 2 \cdot c_{2}+ 2 \cdot 3 \cdot c_{3}x +\cdots+ (n - 1) \cdot n \cdot c_{n}x^{(n+2)} \
+\vdots \
+p^{(n)}(x) = 1 \cdot 2 \cdot 3 \cdots n \cdot c_{n}
+\end{alignat}
+$$&lt;/p&gt;
+&lt;p&gt;setting $x = 0$ in above equations, we get
+$$
+c_{0}= p(0), \quad c_{1} = \frac{p&amp;rsquo;(0)}{1!}, \quad c_{2} = \frac{p&amp;rsquo;&amp;rsquo;(0)}{2!},  \quad \cdots \quad
+c_{n} = \frac{p^{(n)}(0)}{n!}
+$$
+putting these calculated coefficient in equation $1$, we get
+$$
+\tag{2}
+p(x) = p(0) + \frac{p&amp;rsquo;(0)}{2!}x^{2} + \frac{p&amp;rsquo;&amp;rsquo;(0)}{3!}x^{3} + \cdots + \frac{p^{(n)}(0)}{n!}x^{n}
+$$&lt;/p&gt;
+&lt;p&gt;Equation $2$ is called &lt;em&gt;&lt;strong&gt;Maclaurin&amp;rsquo;s formula&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of expanding equation as power of $x$ in equation $1$, we can expand the equation with respect to power of $x - a$ where $a$ is a constant value.&lt;/p&gt;
+&lt;p&gt;$$
+\tag{3}
+p(x) = c_{0} + c_{1}(x - a) + c_{2}(x - a)^{2}+\cdots+c_{n}(x - a)^{n}
+$$
+differentiating it successfully $n$ times, we get
+$$
+\begin{alignat}{3}
+p&amp;rsquo;(x) = c_{1}+2 \cdot c_{2}(x - a)+\cdots+n \cdot c_{n}(x - a)^{(n+1)} \
+p&amp;rsquo;&amp;rsquo;(x) = 2 \cdot c_{2}+ 2 \cdot 3 \cdot c_{3}(x - a) +\cdots+ (n - 1) \cdot n \cdot c_{n}(x - a)^{(n+2)} \
+\vdots \
+p^{(n)}(x) = 1 \cdot 2 \cdot 3 \cdots n \cdot c_{n}
+\end{alignat}
+$$
+setting $x = a$ in above equations, we get
+$$
+c_{0}= p(a), \quad c_{1} = \frac{p&amp;rsquo;(a)}{1!}, \quad c_{2} = \frac{p&amp;rsquo;&amp;rsquo;(a)}{2!},  \quad \cdots \quad
+c_{n} = \frac{p^{(n)}(a)}{n!}
+$$
+putting these calculated coefficient in equation $3$, we get
+$$
+\tag{4}
+p(x) = p(0) + \frac{p&amp;rsquo;(a)}{2!}(x - a)^{2} + \frac{p&amp;rsquo;&amp;rsquo;(a)}{3!}(x - a)^{3} + \cdots + \frac{p^{(n)}(a)}{n!}(x - a)^{n}
+$$&lt;/p&gt;
+&lt;p&gt;^fd3286&lt;/p&gt;
+&lt;p&gt;Equation $4$ is called &lt;em&gt;&lt;strong&gt;Taylor&amp;rsquo;s formula&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;expansion-of-arbitrary-function&#34;&gt;Expansion of arbitrary function&lt;/h2&gt;
+&lt;p&gt;Let $f(x)$ is a function defined on an interval $X$ that has derivate of all order upto $n \in \mathbb{N}$ at point $a$.  ^cc2d81&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More precisely, we need derivate of all order upto $n - 1$.
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;strong&gt;need more clarification&lt;/strong&gt; (@2024-01-22)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Using [[#^fd3286| Taylor Theorem]], we can construct a polynomial of degree $n$,
+$$
+p_{n}(x) = f(a) + \frac{1}{1!} f&amp;rsquo;(a) (x - a) + \frac{1}{2!} f&amp;rsquo;&amp;rsquo;(a) (x - a)^{2}+ \cdots + \frac{1}{n!} f(a)^{n} (x - a)^{n} \tag{5}
+$$
+Since, $f(x)$ is not a polynomial, so $f(x) \ne p_{n}(x)$ .
+Let $r_{n}(x)$ , called &lt;em&gt;&lt;strong&gt;the remainder term&lt;/strong&gt;&lt;/em&gt;, represent difference between $f(x)$ and $p_{n}(x)$ for $x$ in the range $X$.
+$$
+r_{n}(x) = f(x) - p_{n}(x) \tag{6}
+$$
+$$
+\begin{equation}
+r_{n}(x) = f(x) - f(a) - \frac{1}{1!} f&amp;rsquo;(a) (x - a) - \frac{1}{2!} f&amp;rsquo;&amp;rsquo;(a) (x - a)^{2}- \cdots - \frac{1}{n!} f^{(n)}(a) (x - a)^{n} \tag{7}
+\end{equation}
+$$&lt;/p&gt;
+&lt;p&gt;^901ba0&lt;/p&gt;
+&lt;p&gt;To investigate more about $r_{n}(x)$ , we can impose additional constraint that $f(x)$ must have $(n + 1)^{th}$  derivative in range $X$.&lt;/p&gt;
+&lt;p&gt;Replacing constant $a$ in &lt;a href=&#34;#%5E901ba0&#34;&gt;equation 7&lt;/a&gt; by a variable $z \in [a, x]$, we get a auxiliary function
+$$
+\varphi(z) = f(x) - f(z) - \frac{1}{1!} f&amp;rsquo;(z) (x - z) - \frac{1}{2!} f&amp;rsquo;&amp;rsquo;(z) (x - z)^{2}- \cdots - \frac{1}{n!} f^{(n)}(z) (x - z)^{n} \tag{8}
+$$&lt;/p&gt;
+&lt;p&gt;^4a94db&lt;/p&gt;
+&lt;p&gt;It is obvious that $\varphi(z)$ is continuous and take following value on interval $X$.
+$$
+\varphi(a) = r_{n}(x), \qquad \varphi(x) = 0
+$$&lt;/p&gt;
+&lt;p&gt;Taking derivate of &lt;a href=&#34;#%5E4a94db&#34;&gt;function 8&lt;/a&gt;, we get
+$$
+\begin{align}
+\varphi&amp;rsquo;(z) = -f&amp;rsquo;(z) - \Big[\frac{f&amp;rsquo;&amp;rsquo;(z)}{1!}(x - z) - f&amp;rsquo;(z) \Big]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\Big[ \frac{f&amp;rsquo;&amp;rsquo;&amp;rsquo;(z)}{2!}(x - z)^{2} - \frac{f&amp;rsquo;&amp;rsquo;(z)}{1!}(x - z) \Big] \&lt;/li&gt;
+&lt;li&gt;\cdots - \Big[ \frac{f^{(n + 1)}(z)}{n!}(x - z)^{n} - \frac{f^{(n)}(z)}{(n - 1)!}(x - z)^{(n - 1)} \Big]
+\end{align}
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;on simplification, we get
+$$
+\varphi&amp;rsquo;(z) = -\frac{f^{(n + 1)}(z)}{n!}(x - z)^{n} \tag{9}
+$$&lt;/p&gt;
+&lt;p&gt;^b19148&lt;/p&gt;
+&lt;p&gt;suppose there is a function $\psi(z)$  such that it is continuous in the interval $[a, x]$ and has a non-vanishing derivative on in interval $(a, x)$.&lt;/p&gt;
+&lt;p&gt;By [[../theory-on-differential-functions/Theory on differential functions#^8ade4a|Cauchy theorem]],  there must exist $a &amp;lt; c &amp;lt; x$ such that
+$$
+\frac{\varphi(a) - \varphi(x)}{\psi(a) - \psi(x)} = \frac{\varphi&amp;rsquo;(c)}{\psi&amp;rsquo;(c)}
+$$
+$$
+\frac{\varphi(a) - 0}{\psi(a) - \psi(x)} = \frac{\varphi&amp;rsquo;(c)}{\psi&amp;rsquo;(c)}
+$$
+$$
+\varphi(a) =  \frac{{\psi(a) - \psi(x)}}{\psi&amp;rsquo;(c)} \varphi&amp;rsquo;(c)
+$$&lt;/p&gt;
+&lt;p&gt;If we choose $\psi(z) = (x - z)^{(n + 1)}$, we have
+$$\psi(x) = 0, \quad \psi(a) = (x - a)^{n + 1}\quad \psi&amp;rsquo;(c) = -(n + 1)(x - c)^{n}$$&lt;/p&gt;
+&lt;p&gt;so, we have
+$$
+\varphi(a) = \frac{(x - a)^{(n + 1)} - 0}{-(n + 1)(x - c)^{n}} \varphi&amp;rsquo;(c)
+$$
+$$
+\varphi(a) = \frac{(x - a)^{(n + 1)}}{-(n + 1)(x - c)^{n}} \varphi&amp;rsquo;(c)
+$$
+using [[#^b19148 | equation 9]]
+$$
+\varphi(a) = \frac{(x - a)^{(n + 1)}}{-(n + 1)(x - c)^{n}} \Big[ -\frac{f^{(n + 1)}(c)}{n!}(x - c)^{n}\Big]
+$$
+$$
+\varphi(a) = r_{n}{x} = \frac{f^{(n + 1)}(c)}{(n + 1)!} (x - a)^{(n + 1)} \tag{10}
+$$
+$$
+\begin{align}
+f(x) = f(a) + \frac{1}{1!} f&amp;rsquo;(a) (x - a) + \frac{1}{2!} f&amp;rsquo;&amp;rsquo;(a) (x - a)^{2} + \cdots + \frac{1}{n!} f^{(n)}(a) (x - a)^{n} \ +  \frac{f^{(n + 1)}(c)}{(n + 1)!} (x - a)^{(n + 1)}\tag{11}
+\end{align}
+$$
+equation $11$ is called &lt;em&gt;Taylor&amp;rsquo;s formula with the additional term in Lagrange&amp;rsquo;s form&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;expansion-of-some-common-function-in-taylor-series&#34;&gt;Expansion of some common function in Taylor Series&lt;/h2&gt;
+&lt;h2 id=&#34;expansion-of-ex-in-taylor-series&#34;&gt;Expansion of $e^{x}$ in Taylor series&lt;/h2&gt;
+&lt;p&gt;Let $f(x) = e^x$.
+$$
+\begin{align}
+f(x) = e^{x}, \qquad f(0) = 1 \
+f&amp;rsquo;(x) = e^{x}, \qquad f&amp;rsquo;(0) = 1 \
+\vdots \qquad \qquad \qquad \vdots \qquad\
+f^{(n)} = e^{x}, \qquad f^{(n)}(0) = 1
+\end{align}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{align}
+f(x) = e^{x}= 1 + \frac{x}{1!} + \frac{x^{2}}{2!} + \frac{x^{3}}{3!}+ \cdots + \frac{x^{n}}{n!} + r_{n}x \
+r_{n}x = \frac{x^{n + 1}}{(n+1)!}e^c
+\end{align}
+$$&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
