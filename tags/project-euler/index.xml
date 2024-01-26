@@ -89,7 +89,7 @@
     &lt;summary&gt;hint 2&lt;/summary&gt;
 
 &lt;ul&gt;
-&lt;li&gt;If prime $p$ divide $n$, then $p &amp;lt; \sqrt{n}$ else $p = n$.&lt;/li&gt;
+&lt;li&gt;If prime $p$ divide $n$, then $p &amp;lt; \sqrt{n}$ or $p = n$.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/details&gt;
  
