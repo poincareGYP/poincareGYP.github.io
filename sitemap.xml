@@ -2,28 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://poincaregyp.github.io//README/</loc>
-            <lastmod>2024-02-02T22:03:32.641Z</lastmod>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/24-january/shift-1</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io//about/</loc>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/24-january/shift-2</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/25-january/shift-1</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/problems/jee/</loc>
+            <lastmod>2024-01-27T17:43:37.476Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/about/</loc>
             <lastmod>2024-02-02T22:03:32.656Z</lastmod>
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io//blog/</loc>
+            <loc>https://poincaregyp.github.io/blog/</loc>
             <lastmod>2024-02-02T22:03:32.657Z</lastmod>
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io//</loc>
+            <loc>https://poincaregyp.github.io/category/</loc>
+            <lastmod>2024-02-02T22:03:32.657Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/category/JEE/</loc>
             <lastmod>2024-02-02T22:03:32.658Z</lastmod>
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io//static/katex/README/</loc>
-            <lastmod>2024-02-02T22:03:34.769Z</lastmod>
+            <loc>https://poincaregyp.github.io/</loc>
+            <lastmod>2024-02-02T22:03:32.658Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/tags/jee-main/</loc>
+            <lastmod>2024-02-02T22:03:34.833Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/tags/</loc>
+            <lastmod>2024-02-02T22:03:34.834Z</lastmod>
         </url>
     
 </urlset>
