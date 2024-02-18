@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
+            <loc>https://poincaregyp.github.io/blog/calculus/taylor-series-and-maclaurin-series/</loc>
+            <lastmod>2024-01-15T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
             <loc>https://poincaregyp.github.io/problems/jee/2023/main/24-january/shift-1/</loc>
             <lastmod>2024-01-27T00:00:00.000Z</lastmod>
         </url>
@@ -13,6 +18,21 @@
     
         <url>
             <loc>https://poincaregyp.github.io/problems/jee/2023/main/25-january/shift-1/</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/25-january/shift-2/</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/29-january/shift-1/</loc>
+            <lastmod>2024-01-27T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://poincaregyp.github.io/problems/jee/2023/main/29-january/shift-2/</loc>
             <lastmod>2024-01-27T00:00:00.000Z</lastmod>
         </url>
     
@@ -37,7 +57,7 @@
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io/category/jee/</loc>
+            <loc>https://poincaregyp.github.io/category/calculus/</loc>
             <lastmod>2024-02-02T22:03:32.658Z</lastmod>
         </url>
     
@@ -47,7 +67,7 @@
         </url>
     
         <url>
-            <loc>https://poincaregyp.github.io/tags/jee-main/</loc>
+            <loc>https://poincaregyp.github.io/tags/calculus/</loc>
             <lastmod>2024-02-02T22:03:34.833Z</lastmod>
         </url>
     
